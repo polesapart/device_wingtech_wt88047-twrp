@@ -12,8 +12,8 @@ PRODUCT_PACKAGES += \
     charger
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/dt.img:dt.img \
-    $(LOCAL_PATH)/kernel:kernel \
+    $(LOCAL_PATH)/prebuilt/dt.img:dt.img \
+    $(LOCAL_PATH)/prebuilt/kernel:kernel \
     $(LOCAL_PATH)/recovery.fstab:root/etc/recovery.fstab
 
 ## Device identifier. This must come after all inclusions
